@@ -67,7 +67,6 @@ public class SingleLinkedList {
         return size;
     }
 
-    // reverse the linked list RECURSIVELY
     public void reverse() {
         if (head == null) {
             return;
